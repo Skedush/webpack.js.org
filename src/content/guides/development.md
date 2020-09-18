@@ -94,7 +94,7 @@ __src/print.js__
 ``` diff
   export default function printMe() {
 -   console.log('I get called from print.js!');
-+   cosnole.log('I get called from print.js!');
++   cosnole.error('I get called from print.js!');
   }
 ```
 
@@ -207,7 +207,7 @@ __src/print.js__
 
 ``` diff
   export default function printMe() {
--   cosnole.log('I get called from print.js!');
+-   cosnole.error('I get called from print.js!');
 +   console.log('I get called from print.js!');
   }
 ```
